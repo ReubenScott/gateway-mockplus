@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e" session_guid='SESSION_ID'>  
+   <request type='disconnect' xaction_guid='0f16a851-a043-498d-a857-77ee5c59499c' >
+   </request>
+</message>

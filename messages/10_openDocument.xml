@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e"
+	session_guid='SESSION_ID'>
+	<request type='postnotification' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'>
+		<notification oid='9ee588fb-dcf6-474e-9437-31c36ec2ac72'>
+			<header notification_type="event" notification_action="create">
+				<pertinent_type>@GUID@/c250c8db-b532-4d18-8956-420c3d637a41</pertinent_type>
+				<pertinent_identifier>@SN@</pertinent_identifier>
+			</header>
+			<body>          
+				<components>                   
+					<component type='document'>                   
+						<file_size>fileSize</file_size>
+						<md5>fileMD5</md5>
+						<location>localCacheLocation</location>
+					</component>
+				</components>
+			</body>
+		</notification>
+	</request>
+</message> 

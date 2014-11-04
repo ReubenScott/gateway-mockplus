@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message session_guid="26a1d0f5-3996-49de-a133-b9d1e7ae4f61"
+	schema_version="3644767c-2632-411a-9416-44f8a7dee08e">
+	<request xaction_guid="c67a7a12-f291-4f02-a2ea-63f5bc839fc5" type="postnotification">
+		<notification oid="dc308fde-bf9a-4c6f-9ef0-f41cb499c8e1">
+			<header notification_type="event" notification_action="syncDeviceCfg">				
+				<pertinent_type>@GUID@/532ffdda-6f38-41da-9a40-cb0801epvt3y</pertinent_type>
+				<pertinent_identifier>@SN@</pertinent_identifier>
+			</header>
+			<body>
+				<is_Accessible>false</is_Accessible>
+				<device_config>
+					<devicetype_guid>PB980_Ventilator</devicetype_guid>
+					<system_config>
+						<name>sys_config</name>
+						<revision>v1</revision>
+						<config type="SOFTWARE">
+							<name>sw_config</name>
+							<device_type>test4</device_type>
+							<revision>v2</revision>
+							<description>ddd</description>
+							<component required="false" type="SOFTWARE">
+								<name>PB.BD.FLASH.BOOT</name>
+								<revision>X00</revision>
+								<md5>9085740935547fff9298b9ac039f80b0</md5>
+								<part_number>10099442</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="SOFTWARE">
+								<name>PB.BD.FLASH.DOWNLOAD</name>
+								<revision>X00</revision>
+								<md5>428814ea3f3135b2a3dea2d3bae33b51</md5>
+								<part_number>10099442</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="SOFTWARE">
+								<name>PB.BD.FLASH.NORMAL</name>
+								<revision>X00</revision>
+								<md5>75c52038ffba9703e31f6a0eba8cb5d3</md5>
+								<part_number>10097144</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="SOFTWARE">
+								<name>PB.GUI.FLASH.BOOT</name>
+								<revision>X00</revision>
+								<md5>9085740935547fff9298b9ac039f80b0</md5>
+								<part_number>10099442</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="SOFTWARE">
+								<name>PB.GUI.FLASH.DOWNLOAD</name>
+								<revision>X00</revision>
+								<md5>428814ea3f3135b2a3dea2d3bae33b51</md5>
+								<part_number>10099442</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="SOFTWARE">
+								<name>PB.GUI.FLASH.SERVICE</name>
+								<revision>X00</revision>
+								<md5>5a785b2512d1da5376c2b7f8d2744d60</md5>
+								<part_number>10097144</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="SOFTWARE">
+								<name>PB.GUI.FLASH.NORMAL</name>
+								<revision>X00</revision>
+								<md5>08eb80e5f93a3e75720fe88d10efcb29</md5>
+								<part_number>10097144</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="SOFTWARE">
+								<name>BdSoftware</name>
+								<revision>VIKING_3.2.0.70</revision>
+								<part_number>33333333</part_number>
+								<serial_number></serial_number>
+							</component>
+						</config>
+						<config type="HARDWARE">
+							<component required="false" type="HARDWARE">
+								<name>MasterVent</name>
+								<revision></revision>
+								<md5></md5>
+								<part_number></part_number>
+								<serial_number>35B12P3001</serial_number>
+							</component>
+							
+							<component required="false" type="HARDWARE">
+								<name>InspFlowSensor</name>
+								<revision>56</revision>
+								<part_number>840610</part_number>
+								<serial_number>6101233041</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>ExhFlowSensor</name>
+								<revision>57</revision>
+								<part_number>840600</part_number>
+								<serial_number>6001234007</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>MixAirFlowSensor</name>
+								<revision>56</revision>
+								<part_number>840610</part_number>
+								<serial_number>6101233040</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>MixO2FlowSensor</name>
+								<revision>56</revision>
+								<part_number>840610</part_number>
+								<serial_number>6101219275</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PowerCompAgileMotorController</name>
+								<revision>Not Installed</revision>
+								<part_number></part_number>
+								<serial_number>Not Installed</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PiInspPcbaBoard</name>
+								<revision>Not Read</revision>
+								<part_number>Not Read</part_number>
+								<serial_number>Not Read</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PiInspIfmPcbaBoard</name>
+								<revision>Not Read</revision>
+								<part_number>Not Read</part_number>
+								<serial_number>Not Read</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>ExhSensorPcbaBoard</name>
+								<revision>Not Read</revision>
+								<part_number>Not Read</part_number>
+								<serial_number>Not Read</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PiExhValvePcbaBoard</name>
+								<revision>Not Read</revision>
+								<part_number>Not Read</part_number>
+								<serial_number>Not Read</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>MixPcbaBoard</name>
+								<revision>Not Read</revision>
+								<part_number>Not Read</part_number>
+								<serial_number>Not Read</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PowerVentPcbaBoard</name>
+								<revision>Not Read</revision>
+								<part_number>Not Read</part_number>
+								<serial_number>Not Read</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PowerCompControllerPcbaBoard</name>
+								<revision>Not Installed</revision>
+								<part_number></part_number>
+								<serial_number>Not Installed</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PowerCompInterfacePcbaBoard</name>
+								<revision>Not Installed</revision>
+								<part_number></part_number>
+								<serial_number>Not Installed</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>Options1PcbaBoard</name>
+								<revision>Not Installed</revision>
+								<part_number></part_number>
+								<serial_number>Not Installed</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>UiPcbaBoard</name>
+								<revision>07</revision>
+								<part_number>10046197</part_number>
+								<serial_number>1210BE0047</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PrimaryVentBattery</name>
+								<revision></revision>
+								<part_number></part_number>
+								<serial_number>Not Installed</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>ExtendedVentBattery</name>
+								<revision></revision>
+								<part_number></part_number>
+								<serial_number>Not Installed</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>PrimaryCompressorBattery</name>
+								<revision></revision>
+								<part_number></part_number>
+								<serial_number>1149MM0001</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>ExtendedCompressorBattery</name>
+								<revision></revision>
+								<part_number></part_number>
+								<serial_number>Not Installed</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>BdPcba</name>
+								<revision>X00</revision>
+								<part_number>11111111</part_number>
+								<serial_number>XXXXXXXXXXXXX</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>GuiPcba</name>
+								<revision>X00</revision>
+								<part_number>21111111</part_number>
+								<serial_number>XXXXXXXXXXXXX</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>Prox</name>
+								<revision>XXXXXXXXXXXXX</revision>
+								<part_number></part_number>
+								<serial_number>0</serial_number>
+							</component>
+							<component required="false" type="HARDWARE">
+								<name>FpgaCompressor</name>
+								<revision>X08.17</revision>
+								<md5></md5>
+								<part_number>10089996</part_number>
+								<serial_number>XXXXXXXXXX</serial_number>
+							</component>
+						</config>
+						<config type="FIRMWARE">
+							<component required="false" type="FIRMWARE">
+								<name>CpldBd</name>
+								<revision>X05.50</revision>
+								<part_number>10089860</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>CpldGui</name>
+								<revision>X06.27</revision>
+								<part_number>10089862</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaBd</name>
+								<revision>X04.30</revision>
+								<part_number>10089852</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaGui</name>
+								<revision>X03.40</revision>
+								<part_number>10089726</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaInspiratory</name>
+								<revision>X06.57</revision>
+								<part_number>10089854</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaExhalation</name>
+								<revision>X06.57</revision>
+								<part_number>10089854</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaMix</name>
+								<revision>X07.13</revision>
+								<part_number>10089992</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaPowerControl</name>
+								<revision>X05.42</revision>
+								<part_number>10089856</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaOptionAccessories</name>
+								<revision>Not Installed</revision>
+								<part_number></part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>FpgaUi</name>
+								<revision>X04.41</revision>
+								<part_number>10089858</part_number>
+								<serial_number></serial_number>
+							</component>
+							<component required="false" type="FIRMWARE">
+								<name>UiAudioFlash</name>
+								<revision>X01.28</revision>
+								<part_number>10089997</part_number>
+								<serial_number></serial_number>
+							</component>
+						</config>
+					</system_config>
+				</device_config>
+			</body>
+		</notification>
+		<params>
+			<country>US</country>
+		</params>
+	</request>
+</message>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e"
+	session_guid="SESSION_ID">
+	<request type='createdevice' xaction_guid="076efa72-4067-49c9-9d62-7647ea58c032">
+		<params>
+			<country>CN</country>
+			<device_uri>{@GUID@}/{@SN@}</device_uri>
+		</params>
+	</request>
+</message>

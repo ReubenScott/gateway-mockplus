@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message session_guid="26a1d0f5-3996-49de-a133-b9d1e7ae4f61"
+	schema_version="3644767c-2632-411a-9416-44f8a7dee08e">
+	<request xaction_guid="c67a7a12-f291-4f02-a2ea-63f5bc83b5a8" type="postnotification">
+		<notification oid="dc308fde-bf9a-4c6f-9ef0-f41cb499c8e1">
+			<header notification_type="event" notification_action="getMatchedCfg">				
+				<pertinent_type>@GUID@/532ffdda-6f38-41da-9a40-cb0801e67dfa</pertinent_type>
+				<pertinent_identifier>@SN@</pertinent_identifier>
+			</header>
+			<body>
+				<is_Accessible>false</is_Accessible>
+				<devicetype_config>
+					<devicetype_guid>Valleylab LS10</devicetype_guid>
+					<system_config type="running_config">
+						<name>em_sys_cfg_01</name>
+                            <revision>1</revision>
+                            <description>1</description>
+                            <update_time>1412085659</update_time>
+                            <config type="HARDWARE">
+                                <name>hc-test-1</name>
+                                <revision>1</revision>
+                                <description>1</description>
+                            </config>
+                            <config type="SOFTWARE">
+                                <name>em_sw_cfg_03</name>
+                                <revision>123</revision>
+                                <description>123</description>
+                                <component software_type="Software Bundle" sn_constrained="false" required="false">
+                                    <name>LS10.UT.SW.TEST</name>
+                                    <oid>MnpXFFdY+sWOXoYI8pQmynDnIXCvCXCMUmQIzKNf1th/UxkwUK8gtGgrvvIeHWj2xw4U0i1cYe+dITf9jcIWwQ==</oid>
+                                    <part_number>1001</part_number>
+                                    <revision>001</revision>
+                                    <status>In Production</status>
+                                </component>
+                                <component software_type="Software Bundle" sn_constrained="false" required="false">
+                                    <name>sw-test1</name>
+                                    <part_number>1</part_number>
+                                    <revision>1</revision>
+                                    <status>In Production</status>
+                                </component>
+                                <component software_type="Software Bundle" sn_constrained="false" required="false">
+                                    <name>sw-test2</name>
+                                    <description>TEST</description>
+                                    <part_number>111111111111</part_number>
+                                    <revision>222</revision>
+                                    <status>Limited Release</status>
+                                </component>
+                                <component software_type="Software Bundle" sn_constrained="false" required="false">
+                                    <name>em_sw_test03</name>
+                                    <oid>t6NqHeil8a2/x/YF6IvXhqr1ePW915lf1ffeP+CUb/Rd0RMzD1ViKQOg2O7TASwRkwj9S00rElk=</oid>
+                                    <part_number>1001</part_number>
+                                    <revision>1</revision>
+                                    <status>In Production</status>
+                                </component>
+                            </config>
+					</system_config>
+				</devicetype_config>
+			</body>
+		</notification>
+		<params>
+			<country>US</country>
+		</params>
+	</request>
+</message>

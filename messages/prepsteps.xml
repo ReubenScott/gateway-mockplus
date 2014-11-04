@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e"
+	session_guid='SESSION_ID'>
+	<request type='prepsteps' xaction_guid='e1c38f30-50a0-4ccf-a74a-c7ec11b54544'>
+		<params>
+			<device_type>ABDDDD</device_type>
+			<device_types>
+				<device_type> DeviceTypeGUID1 </device_type>				
+			</device_types>
+		</params>
+	</request>
+</message>

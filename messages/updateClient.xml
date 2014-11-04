@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e" session_guid="0d7778a3-da11-41ab-88d1-a344c653ddf4">
+  <request type="postnotification" xaction_guid="f9353e7b-6f36-4e85-a6fc-a318cb4beb4b">
+    <params />
+    <notification oid="07cd0a3e-a872-456d-ae2d-8e82e322cd99">
+      <header notification_type="event" notification_action="create">
+        <pertinent_type>61e08b77-df3c-4735-9f3b-0b42efb7bdcf/APPLICATION_CLIENT_INFO</pertinent_type>
+      </header>
+      <body>
+        <components>
+          <component type="Software">
+            <name>SCDUInstaller</name>
+            <revision>0.9.5.en</revision>
+            <part_number>0</part_number>
+          </component>
+          <component type="Business Rules">
+            <name>SCDUBusinessRules</name>
+            <revision>1.0</revision>
+            <part_number>0</part_number>
+          </component>
+        </components>
+      </body>
+    </notification>
+  </request>
+</message>

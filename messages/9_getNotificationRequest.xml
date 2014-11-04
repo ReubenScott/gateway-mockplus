@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e" session_guid='SESSION_ID'>
+   <request type='getnotification' xaction_guid='55c26878-90fb-4a4a-aa1f-3a689310771e'>
+      <params>
+		 <notification_oid>3fe73f48ef70246a</notification_oid>
+      </params>
+   </request>
+</message>

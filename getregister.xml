@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e" session_guid='{$sessionId}' >
+   <response type='bad' xaction_guid='{$randomVar}'>
+    <params>
+      <url>https://rss.covidien.com/register.php</url>
+    </params>
+   </response>
+</message>

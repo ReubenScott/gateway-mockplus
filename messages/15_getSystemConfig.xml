@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message session_guid="df17f4a9-9324-42a5-8fce-06b8aa8b1a28"
+	schema_version="3644767c-2632-411a-9416-44f8a7dee08e">
+	<request xaction_guid="c67a7a12-f291-4f02-a2ea-63f5bc83b9f2" type="getsysconfigs">
+		<params>
+			<device_type>@GUID@</device_type>
+		</params>
+	</request>
+</message>

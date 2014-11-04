@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<message schema_version="3644767c-2632-411a-9416-44f8a7dee08e" session_guid="SESSION_ID">
+	<request type="postnotification" xaction_guid="55c26878-90fb-4a4a-aa1f-3a689310771e">
+		<notification oid='9ee588fb-dcf6-474e-9437-31c36ec2ac72'>
+			<header notification_type="event" notification_action="create">
+				<pertinent_type>@GUID@/2f62d564-a162-440a-a5f6-ed16e7e632d5</pertinent_type>
+				<pertinent_identifier>@SN@</pertinent_identifier>
+			</header>
+			<body>
+				<logs>
+					<log name='SysComm'>
+						<transfer_encoding>gzip</transfer_encoding>
+						<uri_inc>LOG_FILE_PATH</uri_inc>
+					</log>
+				</logs>
+			</body>
+		</notification>
+	</request>
+</message>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<message schema_version='3644767c-2632-411a-9416-44f8a7dee08e'
+	session_guid='SESSION_ID'>
+	<request type='postnotification' xaction_guid='1d65b46d-d14d-4bcd-9c50-083102cc043c'>
+		<notification oid='95db4769-701b-4aa4-8f6f-f47e124459bf'>
+			<header notification_type="event" notification_action="syncDeviceCfg">				
+				<pertinent_type>@GUID@/532ffdda-6f38-41da-9a40-cb0801epvt3y</pertinent_type>
+				<pertinent_identifier>@SN@</pertinent_identifier>
+			</header>
+			<body>
+				<device_config>
+					<devicetype_guid>Valleylab_LS10</devicetype_guid>
+					<system_config>
+						<config type="SOFTWARE">
+							<component software_type="Software Bundle">
+								<name>LS10.UT.SW.TEST</name>
+								<revision>001</revision>
+								<part_number>1001</part_number>
+							</component>
+						</config>
+						<config type="HARDWARE">
+							<component required="false" hardware_type="MOTHERBOARD">
+								<name>LS10.UT.TEST</name>
+								<revision>001</revision>
+								<part_number>1001</part_number>
+							</component>
+						</config>
+						<config type="FIRMWARE">
+							<component >
+								<name>LS10.UT.FW.TEST1</name>
+								<revision>001</revision>
+								<part_number>1001</part_number>
+							</component>
+						</config>
+					</system_config>
+				</device_config>
+			</body>
+		</notification>
+		<params>
+			<country>US</country>
+		</params>
+	</request>
+</message>

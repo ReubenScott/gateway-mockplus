@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<message schema_version='3644767c-2632-411a-9416-44f8a7dee08e'
+	session_guid='SESSION_ID'>
+	<request type='postnotification' xaction_guid='1d65b46d-d14d-4bcd-9c50-083102cc043c'>
+		<notification oid='95db4769-701b-4aa4-8f6f-f47e124459bf'>
+			<header notification_type="event" notification_action="syncDeviceCfg">				
+				<pertinent_type>@GUID@/532ffdda-6f38-41da-9a40-cb0801epvt3y</pertinent_type>
+				<pertinent_identifier>@SN@</pertinent_identifier>
+			</header>
+			<body>
+				<devicetype_config>
+					<system_config>
+						<config type="SOFTWARE">
+							<component software_type="Software Bundle">
+								<name>LS10.UT.SW.TEST</name>
+								<revision>001</revision>
+								<part_number>1001</part_number>
+							</component>
+						</config>
+						<config type="HARDWARE">
+							<component required="false" hardware_type="MOTHERBOARD">
+								<name>LS10.UT.TEST</name>
+								<revision>001</revision>
+								<part_number>1001</part_number>
+							</component>
+						</config>
+					</system_config>
+				</devicetype_config>
+			</body>
+		</notification>
+		<params>
+			<country>US</country>
+			<applied_config>em_sys_cfg_01</applied_config>
+		</params>
+	</request>
+</message>
